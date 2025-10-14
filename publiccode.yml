@@ -1,61 +1,49 @@
-publiccodeYmlVersion: 0.5.0
-name: Bootstrap Italia
-applicationSuite: Design system Italia
-url: https://github.com/italia/bootstrap-italia
-isBasedOn: https://github.com/twbs/bootstrap
-softwareVersion: v2.18.1
-releaseDate: '2026-04-23'
+publiccodeYmlVersion: 0.4.0
+name: Bootstrap Switzerland
+url: https://github.com/swiss/bootstrap-switzerland
+landingURL: https://swiss.github.io/bootstrap-switzerland
+isBasedOn:
+  - Bootstrap
+softwareVersion: v2.16.0
+releaseDate: 2025-07-04
 platforms:
   - web
 categories:
   - website-builder
-  - integrated-library-system
-  - it-development
-  - design
-organisation:
-  uri: urn:x-italian-pa:pcm
-  name: Dipartimento per la trasformazione digitale
-roadmap: https://github.com/orgs/italia/projects/17/views/5?filterQuery=repo%3Aitalia%2Fbootstrap-italia
-developmentStatus: stable
+developmentStatus: development
 softwareType: library
-intendedAudience:
-  countries:
-    - IT
 description:
-  it-IT:
-    shortDescription: Framework front-end basato su Bootstrap per sviluppare
-      interfacce accessibili e coerenti per i siti e i servizi digitali della
-      PA.
-    longDescription: Bootstrap Italia è un framework front-end, risorsa ufficiale
-      del Design system Italia, che supporta lo sviluppo di interfacce per siti
-      e servizi digitali della Pubblica Amministrazione. Basato su Bootstrap, ne
-      estende componenti, griglia e utility per implementare soluzioni conformi
-      alle Linee guida di design per i siti internet e i servizi digitali della
-      Pubblica Amministrazione. Mette a disposizione componenti e pattern pronti
-      all'uso, inclusi quelli dello UI Kit Italia, rendendoli disponibili come
-      codice riutilizzabile e facilitando la realizzazione di interfacce
-      accessibili, responsive e coerenti.
-    documentation: https://italia.github.io/bootstrap-italia/
+  de-CH:
+    localisedName: Bootstrap Theme
+    shortDescription: Ein Bootstrap Theme, angepasst an das Design System der
+      Schweizerischen Eidgenossenschaft
+    longDescription: >-
+      Dieses Bootstrap-Theme ist ein Fork von bootstrap-italia, angepasst an das
+      Design-System der Schweizerischen Eidgenossenschaft.
+
+
+      Weitere Informationen zum offiziellen Design-System der Schweizerischen
+      Eidgenossenschaft findet sich unter https://github.com/swiss/designsystem.
+    documentation: https://swiss.github.io/bootstrap-switzerland
     features:
-      - Componenti e pattern per interfacce web pronti all'uso
-      - Realizzazione di interfacce responsive e accessibili
-      - Estensione di Bootstrap
-      - Implementa lo UI Kit Italia
-      - Integrazione tramite CSS e JavaScript
-      - Conformità alle Linee guida di design per i siti internet e servizi
-        digitali della PA
+      - responsive
+      - accessibility
+      - inclusion
+      - web development
 legal:
-  license: BSD-3-Clause-Clear
+  license: BSD-3-Clause
 maintenance:
   type: community
   contacts:
-    - name: Designers Italia
-      email: contatti@designers.italia.it
+    - name: Olivier Brian
+      email: brian@puzzle.ch
+      phone: ""
+      affiliation: ""
+    - name: Claudia Asti
+      email: asti@puzzle.ch
+      phone: ""
+      affiliation: ""
 localisation:
   localisationReady: false
   availableLanguages:
     - it
-IT:
-  countryExtensionVersion: "1.0"
-  piattaforme:
-    anpr: false
