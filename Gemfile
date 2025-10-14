@@ -7,5 +7,5 @@ gem 'jekyll-sitemap', '~> 1.4.0'
 gem 'jekyll-toc', '~> 0.17.1'
 gem 'html-proofer', '~> 3.19.3'
 gem 'sass-embedded'
-gem 'webrick', '~> 1.7' 
+gem 'webrick', '~> 1.7'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
