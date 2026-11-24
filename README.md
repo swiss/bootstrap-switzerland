@@ -10,9 +10,17 @@ For details about the Swiss Design System, see:
 
 For a preview and documentation of the theme, visit: https://swiss.github.io/bootstrap-switzerland/
 
-To release a new version of the preview and documentation, run:
+The preview and documentation are deployed to the `gh-pages` branch automatically by the
+[Update documentation](.github/workflows/update_docs.yml) GitHub Action on every push to `cd-bund`.
+It can also be triggered manually from the Actions tab.
+
+To deploy manually from your machine instead, you need Ruby 3.3 (with Bundler) and Node 22,
+or use the provided Docker image. Always build the theme first, as `dist/` is part of the deployed site:
 
 ```bash
+bundle install
+npm ci
+npm run build
 npm run documentation-deploy-to-gh-pages
 ```
 
