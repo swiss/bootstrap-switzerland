@@ -10,9 +10,17 @@ For details about the Swiss Design System, see:
 
 For a preview and documentation of the theme, visit: https://swiss.github.io/bootstrap-switzerland/
 
-To release a new version of the preview and documentation, run:
+The preview and documentation are deployed to the `gh-pages` branch automatically by the
+[Update documentation](.github/workflows/update_docs.yml) GitHub Action on every push to `cd-bund`.
+It can also be triggered manually from the Actions tab.
+
+To deploy manually from your machine instead, you need Ruby 3.3 (with Bundler) and Node 22,
+or use the provided Docker image. Always build the theme first, as `dist/` is part of the deployed site:
 
 ```bash
+bundle install
+npm ci
+npm run build
 npm run documentation-deploy-to-gh-pages
 ```
 
@@ -80,7 +88,7 @@ docker-compose up
 
 Vengono di seguito elencati i componenti distribuiti con Bootstrap Italia che hanno una propria licenza diversa da CC0.
 
-- [Bootstrap 5](https://getbootstrap.com) © Twitter, Inc., licenza MIT
+- [Bootstrap 5](https://getbootstrap.com) © The Bootstrap Authors, licenza MIT
 - [Popper.js](https://popper.js.org) © Floating UI contributors, licenza MIT
 - [SplideJS](https://splidejs.com) © Naotoshi Fujita, licenza MIT
 - [Accessible Autocomplete](https://alphagov.github.io/accessible-autocomplete) © Crown Copyright (Government Digital Service), licenza MIT

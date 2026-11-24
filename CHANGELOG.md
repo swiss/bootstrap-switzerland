@@ -1,3 +1,116 @@
+## [2.18.3](https://github.com/italia/bootstrap-italia/compare/v2.18.2...v2.18.3) (2026-08-04)
+
+
+### Bug Fixes
+
+* **input-search-autocomplete:** sanitize option HTML and escape regex ([abdbd3b](https://github.com/italia/bootstrap-italia/commit/abdbd3b7bf06bf007194eee8cffbaa2e59cf0ae4))
+* **modal, main:** responsive scrollable modal at high zoom and inert background isolation ([bb9d1c3](https://github.com/italia/bootstrap-italia/commit/bb9d1c3527cc9db6a87ad4341f53725371e9fa85))
+* **transfer:** initialize on keyboard interaction, not only on label events ([9d41936](https://github.com/italia/bootstrap-italia/commit/9d419368e836d7134efcff16f2a5d3d50625cede))
+
+
+## [2.18.2](https://github.com/italia/bootstrap-italia/compare/v2.18.1...v2.18.2) (2026-07-15)
+
+
+### Bug Fixes
+
+* remove autocomplete defaults ([d2d47e2](https://github.com/italia/bootstrap-italia/commit/d2d47e2353bbfe8a764c8807c1f5895fe4f6d15b))
+
+
+
+## [2.18.1](https://github.com/italia/bootstrap-italia/compare/v2.18.0...v2.18.1) (2026-04-23)
+
+
+### Bug Fixes
+
+* correct table style inheritance description ([5914bf7](https://github.com/italia/bootstrap-italia/commit/5914bf78659e294c8f7ebe00aa7c4241957e16fc))
+* replace shadow with border color [#1597](https://github.com/italia/bootstrap-italia/issues/1597) ([#1761](https://github.com/italia/bootstrap-italia/issues/1761)) ([f1e198c](https://github.com/italia/bootstrap-italia/commit/f1e198c433a89a3ef89a0946b80a30ed5f028435))
+* update examples_api_update_3.yml branch name ([feace15](https://github.com/italia/bootstrap-italia/commit/feace152bc628191021c38797d0af97e84696d1b))
+
+
+
+# [2.18.0](https://github.com/italia/bootstrap-italia/compare/v2.17.5...v2.18.0) (2026-03-05)
+
+
+### Bug Fixes
+
+* **a11y:** improve modal with icon example and docs ([#1593](https://github.com/italia/bootstrap-italia/issues/1593)) ([6a09ef0](https://github.com/italia/bootstrap-italia/commit/6a09ef0672fbf7eaec131df10d95c43f1eff6290))
+* tooltip stays open when mouse moves on it ([a2529b1](https://github.com/italia/bootstrap-italia/commit/a2529b193a049248e11403fddf8f5ce6e43be760))
+
+
+### Features
+
+* increase gutter-x starting from md breakpoint ([407fed5](https://github.com/italia/bootstrap-italia/commit/407fed53bb3e1456c254d54f12087058cf76c0a1))
+
+
+
+## [2.17.5](https://github.com/italia/bootstrap-italia/compare/v2.17.4...v2.17.5) (2026-02-24)
+
+
+### Bug Fixes
+
+* **docs:** image background on `d-flex` component viewer ([ad5eacb](https://github.com/italia/bootstrap-italia/commit/ad5eacbb903ec0ac2cfaf81e6444ec1afc19c40b))
+* **docs:** typo ([e78b675](https://github.com/italia/bootstrap-italia/commit/e78b6755af862a421e168a39857937b48daf8a18))
+* icon paths in card examples ([e62ee01](https://github.com/italia/bootstrap-italia/commit/e62ee01b434d5e97b70b0d9712e7618beacdd2b9))
+
+
+
+## [2.17.4](https://github.com/italia/bootstrap-italia/compare/v2.17.3...v2.17.4) (2026-02-17)
+
+
+### Bug Fixes
+
+* hero small height [#1505](https://github.com/italia/bootstrap-italia/issues/1505) [#1656](https://github.com/italia/bootstrap-italia/issues/1656) ([30f27ba](https://github.com/italia/bootstrap-italia/commit/30f27ba28ae06d6c5eb231b37b2808d8efb3507d))
+* typo liste.md ([dd07e68](https://github.com/italia/bootstrap-italia/commit/dd07e68f71817a98b8d38b9fdec78436366ec6b1))
+
+
+
+## [2.17.3](https://github.com/italia/bootstrap-italia/compare/v2.17.2...v2.17.3) (2026-02-04)
+
+* security update
+
+
+
+## [2.17.2](https://github.com/italia/bootstrap-italia/compare/v2.17.1...v2.17.2) (2026-01-19)
+
+
+### Bug Fixes
+
+* removed invalid selector `:after .icon` ([e4804b9](https://github.com/italia/bootstrap-italia/commit/e4804b9e71845e98307ea1e134af8a5d47e8d7b7))
+
+
+
+## [2.17.1](https://github.com/italia/bootstrap-italia/compare/v2.17.0...v2.17.1) (2025-12-18)
+
+
+### Bug Fixes
+
+* breadcrumb screen reader announcement, ignore separators ([381f845](https://github.com/italia/bootstrap-italia/commit/381f845d23218ef22cd40f241d1d9224c7588295))
+* **scss:** resolving sass deprecation warnings and compilation errors ([faa996c](https://github.com/italia/bootstrap-italia/commit/faa996c739799dfa03967f4c74c78db8f144aa84))
+
+
+
+# [2.17.0](https://github.com/italia/bootstrap-italia/compare/v2.16.2...v2.17.0) (2025-10-28)
+
+
+### Bug Fixes
+
+* border for custom outline button variants ([b034f8b](https://github.com/italia/bootstrap-italia/commit/b034f8b7653b9a9fc0c3f778b19d4b9673122fdb))
+* duplicated text color classes ([8c6a789](https://github.com/italia/bootstrap-italia/commit/8c6a789cc9254400a5016c2f8c81f8a41f95d97a))
+* icon alignment ([063664b](https://github.com/italia/bootstrap-italia/commit/063664bca5607aba1696af61cc67a83b30eb9807))
+* icon alignment ([23c82bb](https://github.com/italia/bootstrap-italia/commit/23c82bbe60fd8f961ca8cb5404e05a60af82ba82))
+* icon wrapper ([ea8e992](https://github.com/italia/bootstrap-italia/commit/ea8e9921ec8494b153099f8b7e1e4796ee41ec75))
+* input optgroup and textarea text color ([d6d40ea](https://github.com/italia/bootstrap-italia/commit/d6d40ea14906bd368c056127e010ed7070f35cee))
+* reduce form label z-index ([6f22a65](https://github.com/italia/bootstrap-italia/commit/6f22a6591fee36d84015853bb55cdd35b6a523b9))
+* remove position absolute ([2459119](https://github.com/italia/bootstrap-italia/commit/245911924fc4538d714a95ab98707d9ee8e357ec))
+* right alignment ([c5006e5](https://github.com/italia/bootstrap-italia/commit/c5006e5810aa79efa29c3906fd19dbfd43fad5b8))
+
+
+### Features
+
+* make accent and neutral HSB variables overridable ([12ab844](https://github.com/italia/bootstrap-italia/commit/12ab844cc92ee5f9fdc60ae4cbd839ecbd9c550f))
+
+
+
 ## [2.16.2](https://github.com/italia/bootstrap-italia/compare/v2.16.1...v2.16.2) (2025-09-29)
 
 
